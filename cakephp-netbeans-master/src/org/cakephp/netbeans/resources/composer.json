@@ -1,0 +1,16 @@
+{
+	"name": "your_vendor/your_project",
+	"require": {
+		"cakephp/cakephp": ">=2.6.0",
+		"composer/installers": "*",
+		"cakephp/debug_kit": "*"
+	},
+	"config": {
+		"vendor-dir": "Vendor/"
+	},
+	"extra": {
+		"installer-paths": {
+			"{$nb-app-name}/Plugin/{$name}/": ["type:cakephp-plugin"]
+		}
+	}
+}
